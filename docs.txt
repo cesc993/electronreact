@@ -1,0 +1,10 @@
+npm install -g node-gyp
+cd hello
+npm install && node-gyp build && npm test
+node-gyp configure
+cd electron
+npm install 
+npm start
+cd electron-react
+npm install -g electron
+npm electron-start
